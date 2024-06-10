@@ -5,16 +5,16 @@ Sistema financeiro pessoal
 <h2>Projeto</h2>
 
 <p>
-<b>Tecnologias:</b>
+<b>Tecnologias:</b><hr>
 Html: css, bootstrap 5,JavaScript, Php 8 e MySQL.
 
-O projeto desenvolvido se trata de um controle financeiro pessoal onde o usuário poderá lançar suas despesas e receitas.
+O projeto desenvolvido se trata de um controle financeiro pessoal onde o usuário poderá lançar suas despesas e receitas.<br>
 
-Despesas poderá ser cadastradas com seus atributos, descrição de saída, valor da saída, data de saída,  anexar cupom fiscal ou nota e data de lançamento no sistema!
+<b>Despesas:</b> poderá ser cadastradas com seus atributos, descrição de saída, valor da saída, data de saída,  anexar cupom fiscal ou nota e data de lançamento no sistema! <br>
 
-Receitas com os mesmos parâmetros que despesas contam com os mesmos atributos porém como entradas, descrição de entrada, valor da entrada, data de entrada,  anexar cupom fiscal ou nota e data de lançamento no sistema!
+<b>Receitas:</b> com os mesmos parâmetros que despesas contam com os mesmos atributos porém como entradas, descrição de entrada, valor da entrada, <br> data de entrada,  anexar cupom fiscal ou nota e data de lançamento no sistema!
 
-Funções associadas ao sistema: pesquisa por intervalo de mês.
-Gerar relatório pdf.
+Funções associadas ao sistema: pesquisa por intervalo de mês.<br>
+Gerar relatório pdf.<br>
 Necessário usuário se cadastrar no sistema, o usuário tem permissão apenas ao seu painel e suas informações.
 </p>
