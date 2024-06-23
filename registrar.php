@@ -28,33 +28,28 @@
                                     <label for="inputFirstName">Nome Completo</label>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" />
-                                    <label for="inputLastName">##</label>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
+                            <input class="form-control" id="inputEmail" type="email" name="email" placeholder="name@example.com" />
                             <label for="inputEmail">Email </label>
                         </div>
                         <div class="row mb-3">
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
-                                    <input class="form-control" id="inputPassword" type="password" placeholder="Senha" />
+                                    <input class="form-control" id="inputPassword" type="password" name="senha" placeholder="Senha" />
                                     <label for="inputPassword">Senha</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
-                                    <input class="form-control" id="inputPasswordConfirm" type="password" placeholder="Confirm password" />
+                                    <input class="form-control" id="inputPasswordConfirm" type="password"  placeholder="Confirm password" />
                                     <label for="inputPasswordConfirm">Confirmar Senha</label>
                                 </div>
                             </div>
                         </div>
                         <div class="mt-4 mb-0">
-                            <div class="d-grid"><a class="btn btn-primary btn-block" href="#" style="text-decoration: none;">Criar Conta</a></div>
+                            <div class="d-grid"><button type="submit" class="btn btn-primary btn-block" href="#" style="text-decoration: none;">Criar Conta</button></div>
                         </div>
                     </form>
                 </div>
