@@ -1,3 +1,12 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1:3306
+-- Tempo de geração: 05-Jun-2024 às 21:37
+-- Versão do servidor: 8.3.0
+-- versão do PHP: 8.2.18
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -34,7 +43,9 @@ CREATE TABLE IF NOT EXISTS `despesas` (
 --
 
 INSERT INTO `despesas` (`id`, `descricao`, `valorsaida`, `id_user`, `data_saida`, `created`) VALUES
-(1, 'Açougue', 70, 1, '2024-06-05', '2024-06-05 18:35:56');
+(2, 'Compra cato', 100, 2, '2024-06-04', '2024-06-05 20:37:46'),
+(33, 'padaria', 10, 1, '2024-06-02', '2024-06-03 20:32:52'),
+(39, 'Açougue', 70, 1, '2024-06-05', '2024-06-05 18:35:56');
 
 -- --------------------------------------------------------
 
@@ -82,8 +93,9 @@ CREATE TABLE IF NOT EXISTS `receitas` (
 --
 
 INSERT INTO `receitas` (`id`, `descricao`, `valorentrada`, `id_user`, `data_entra`, `created`) VALUES
-(1, 'padaria', 10, 1, '2024-05-23', '2024-05-30 11:09:01');
-
+(9, 'padaria', 10, 1, '2024-05-23', '2024-05-30 11:09:01'),
+(12, 'Trabalho de pintura', 800, 1, '2024-06-03', '2024-06-04 20:21:59'),
+(13, 'Vanda de pc', 460, 1, '2024-06-20', '2024-06-05 18:34:14');
 
 -- --------------------------------------------------------
 
@@ -109,11 +121,13 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `situacoe_id`, `niveis_acesso_id`, `created`, `modified`) VALUES
-(1, 'Emy Matos', 'matoss@mail.com', '202cb962ac59075b964b07152d234b70', 1, 1, '2024-06-04 19:32:01', '2024-06-04 19:32:01');
+(1, 'Emy Matos', 'matos@gmail.com', '202cb962ac59075b964b07152d234b70', 1, 1, '2024-06-04 19:32:01', '2024-06-04 19:32:01'),
+(2, 'Si Aguilar', 'si@gmail.com', '202cb962ac59075b964b07152d234b70', 1, 1, '2024-06-05 20:31:59', NULL);
 COMMIT;
-
-/* a senha de usuário é 123*/
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+-- sql usuario = INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `situacoe_id`, `niveis_acesso_id`, `avatar_user`, `created`, `modified`) VALUES ('3', 'Victor Eugenio', 'victor@mail.com', '202cb962ac59075b964b07152d234b70', '1', '1', NULL, '2024-06-23 13:27:13.000000', NULL);
