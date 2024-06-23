@@ -130,4 +130,3 @@ COMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
 
--- sql usuario = INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `situacoe_id`, `niveis_acesso_id`, `avatar_user`, `created`, `modified`) VALUES ('3', 'Victor Eugenio', 'victor@mail.com', '202cb962ac59075b964b07152d234b70', '1', '1', NULL, '2024-06-23 13:27:13.000000', NULL);
